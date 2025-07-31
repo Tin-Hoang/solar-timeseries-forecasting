@@ -1,13 +1,21 @@
 # Global Horizontal Irradiance Forecasting
 
+<div align="center">
+
+[![PyTorch](https://img.shields.io/badge/PyTorch-2.0%2B-orange?style=flat-square&logo=pytorch&logoColor=white)](https://pytorch.org/)
+[![Time Series](https://img.shields.io/badge/Time%20Series-Forecasting-blue?style=flat-square&logo=clock&logoColor=white)](https://en.wikipedia.org/wiki/Time_series)
+[![AI & Sustainability](https://img.shields.io/badge/AI%20%26%20Sustainability-Green%20Tech-green?style=flat-square&logo=leaf&logoColor=white)](https://sdgs.un.org/goals/goal7)
+[![ONNX](https://img.shields.io/badge/ONNX-Supported-red?style=flat-square&logo=onnx&logoColor=white)](https://onnx.ai/)
+
+</div>
 
 ***Abstract:** This research aims to develop an accurate and efficient deep learning approach for forecasting Global Horizontal Irradiance (GHI) to facilitate better integration of solar energy into existing power grids. The models leverage satellite data from the National Solar Radiation Database (NSRDB) to predict short-term solar irradiance patterns, enabling more reliable renewable energy planning and management. The study demonstrates how advanced AI techniques can address critical challenges in sustainable energy deployment while maintaining computational efficiency.*
 
 Available models:
-1. LSTM
-2. 1D-CNN
-3. CNN-LSTM
-4. MLP
+1. [LSTM](https://ieeexplore.ieee.org/abstract/document/6795963)
+2. [1D-CNN](https://arxiv.org/pdf/1905.03554)
+3. [CNN-LSTM](https://arxiv.org/pdf/2409.09414)
+4. [MLP](https://www.nature.com/articles/323533a0)
 5. [TCN](https://arxiv.org/abs/1803.01271)
 6. [Transformer](https://arxiv.org/abs/1706.03762)
 7. [Informer](https://arxiv.org/abs/2012.07436)
@@ -28,6 +36,15 @@ Comparison of advanced models in terms of RMSE, MAE, R², MASE, and inference th
 
 You can get the experiment runs from below Weights & Biases project:
 - Weight & Biases: https://wandb.ai/tin-hoang/EEEM073-Solar-Radiation
+
+
+## Alignment with UN Sustainable Development Goals (UNSDGs)
+This research directly supports several UNSDGs:
+- [SDG 7: Affordable and Clean Energy](https://sdgs.un.org/goals/goal7): By improving solar forecasting, this work helps stabilize grids, optimize energy demand planning, and minimize waste-key factors in accelerating renewable energy adoption, especially in developing regions like Vietnam.
+- [SDG 13: Climate Action](https://sdgs.un.org/goals/goal13): By facilitating greater renewable energy penetration, thus reducing dependence on fossil fuels. This works focus on model compression and efficiency also aligns with the growing recognition that AI's own energy footprint must be managed sustainably. "By 2030, global power demand from data centres-primarily driven by AI-could increase by 18-20% annually, reaching over 1,000 terawatt-hours" [[2]](https://www.weforum.org/stories/2025/01/energy-ai-net-zero/). This work on efficient AI models demonstrates the importance of optimizing AI systems themselves while they optimize energy systems.
+- [SDG 9: Industry, Innovation, and Infrastructure](https://sdgs.un.org/goals/goal9): The development and optimization of AI-driven forecasting models represent technological innovation, strengthening resilient and sustainable energy infrastructure.
+
+These alignments highlight the project’s role in addressing pressing global challenges, from energy access to environmental sustainability, and reinforcing its relevance to the AI and Sustainability.
 
 
 ## 0. Project Structure
