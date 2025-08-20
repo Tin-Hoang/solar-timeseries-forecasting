@@ -6,6 +6,7 @@
 [![Time Series](https://img.shields.io/badge/Time%20Series-Forecasting-blue?style=flat-square&logo=clock&logoColor=white)](https://en.wikipedia.org/wiki/Time_series)
 [![AI & Sustainability](https://img.shields.io/badge/AI%20%26%20Sustainability-Green%20Tech-green?style=flat-square&logo=leaf&logoColor=white)](https://sdgs.un.org/goals/goal7)
 [![ONNX](https://img.shields.io/badge/ONNX-Supported-red?style=flat-square&logo=onnx&logoColor=white)](https://onnx.ai/)
+[![Weights & Biases](https://img.shields.io/badge/W%26B-Tracked--Experiments-FFBE00?style=flat-square&logo=weightsandbiases&logoColor=black)](https://wandb.ai/tin-hoang/EEEM073-Solar-Radiation)
 
 </div>
 
