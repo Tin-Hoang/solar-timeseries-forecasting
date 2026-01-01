@@ -7,6 +7,7 @@
 [![AI & Sustainability](https://img.shields.io/badge/AI%20%26%20Sustainability-Green%20Tech-green?style=flat-square&logo=leaf&logoColor=white)](https://sdgs.un.org/goals/goal7)
 [![ONNX](https://img.shields.io/badge/ONNX-Supported-red?style=flat-square&logo=onnx&logoColor=white)](https://onnx.ai/)
 [![Weights & Biases](https://img.shields.io/badge/W%26B-Tracked--Experiments-FFBE00?style=flat-square&logo=weightsandbiases&logoColor=black)](https://wandb.ai/tin-hoang/EEEM073-Solar-Radiation)
+[![arXiv](https://img.shields.io/badge/arXiv-2512.23898-B31B1B.svg?style=flat-square)](https://arxiv.org/abs/2512.23898)
 
 </div>
 
@@ -278,4 +279,18 @@ These Python scripts allow you to conveniently run the workflow without using Ju
 To run the Python scripts, you can use the following command:
 ```
 python scripts/<script_name>.py
+```
+
+## Citation
+If you find this work useful, please cite:
+```
+@misc{hoang2025efficientdeeplearningshortterm,
+      title={Efficient Deep Learning for Short-Term Solar Irradiance Time Series Forecasting: A Benchmark Study in Ho Chi Minh City},
+      author={Tin Hoang},
+      year={2025},
+      eprint={2512.23898},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2512.23898},
+}
 ```
